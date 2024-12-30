@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Katundu Milling Limited</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            background-image: url(Background2.jpg)
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            background-color: #ffffff;
+            margin: 20px 0;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .service-card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card h3 {
+            margin-top: 0;
+        }
+
+        .service-card p {
+            color: #555;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 30px;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+        }
+
+        .contact-form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        .contact-form button:hover {
+            background-color: #444;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            section {
+                padding: 30px 20px;
+            }
+            /* Add styles for mobile menu */
+nav.show-menu {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav.show-menu {
+        display: block;
+    }
+
+    header nav a {
+        margin: 10px 0;
+    }
+}
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Katundu Milling Limited</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about">
+            <p>Katundu milling an innovative company focused on delivering high-quality products such as mealie meal and cooking oils to meet the needs of a diverse clientele. Established in 2022, we are known for our unique selling point and being one of Mealie meal companys in Lundazi area. Our core values of like Our integrity, innovation, sustainability, guide our operations. With a passionate team, we aim to revolutionize the Mealie meal industry  and provide effective solutions that align with the latest trends. Our mission is to Deliver great Products to customers and satisfy,and we are committed to long-term growth and making a lasting impact on the industry.
+            </p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Mealie meal</h3>
+                <p>We specialize in the milling of grains into high-quality products for various food industries.</p>
+            </div>
+            <div class="service-card">
+                <h3>Oil Production</h3>
+                <p>Our Cooking Oil milling services are designed to meet the needs of bakeries, food manufacturers, and other
+                    industries.</p>
+            </div>
+            <div class="service-card">
+                <h3>Custom Milling</h3>
+                <p>We offer custom milling services to suit the specific requirements of our clients, ensuring top
+                    quality results.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>You can contact us on our mobile line +260 975 829 020 / 957 079 363</p>
+        <p>You can also come to our location at sub/Div 6 / Lot 26303/M, Old Airstrip P. O. Box 530273, LUNDAZI - ZAMBIA</p>
+        <p>Or fill out the form below</p>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+                
+                
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2022 Katundu Milling Limited. All Rights Reserved.</p>
+    </footer>
+    <script>
+        // Form Validation
+        document.querySelector("form").addEventListener("submit", function(event) {
+            const name = document.querySelector("input[type='text']").value;
+            const email = document.querySelector("input[type='email']").value;
+            const message = document.querySelector("textarea").value;
+            
+        
+            // Check if the required fields are empty
+            if (!name || !email || !message) {
+                event.preventDefault(); // Prevent form submission
+                alert("Please fill in all fields before submitting.");
+            }
+        });
+        
+        // Smooth Scroll
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                
+                    behavior: 'smooth'
+                });
+            });
+        
+        
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.createElement('button');
+            menuButton.textContent = '☰'; // Hamburger menu icon
+            document.querySelector('header nav').appendChild(menuButton);
+            
+            const navLinks = document.querySelector('header nav');
+            
+            menuButton.addEventListener('click', function() {
+                navLinks.classList.toggle('show-menu');
+            });
+        });
+        </script>
+        
+
+</body>
+
+</html>
